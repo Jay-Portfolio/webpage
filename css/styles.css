@@ -1,0 +1,151 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #f9f9f9;
+}
+/*Div for overall webpage*/
+.container{
+   position: relative;
+   height: 100%;
+}
+
+/*Header is broken into three blocks*/
+.nav-bar{
+   position: fixed;
+
+   top: 0;
+   width: 100%;
+   display: flex;
+   background-color:	#f9f9f9;
+   min-height: 10rem;
+   z-index: 999;
+}
+
+/*Left header block*/
+.left-nav-bar{
+   position: relative;
+
+   height: 10rem;
+   width: 20%;
+}
+
+/*Middle header block; includes the nameplate and navigation bar*/
+.middle-nav-bar{
+   position: relative;
+
+   height: 10rem;
+   width: 60%;
+}
+
+/*Right header block*/
+.right-nav-bar{
+   position: relative;
+
+   height: 10rem;
+   width: 20%;
+}
+
+/*Div for the nameplate/location */
+.header-left{
+   position: absolute;
+   bottom: 0;
+
+   display: block;
+   min-height: auto;
+   width: 50%;
+   margin-bottom: 1rem;
+}
+
+.name{
+   position: relative;
+   top: 0;
+
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 2rem;
+}
+.location{
+   position: relative;
+   bottom: 0;
+   font-family: 'Cormorant Garamond', serif;
+}
+
+.header-right{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+   display: block;
+   word-spacing: 1rem;
+   min-height: auto;
+   width: 50%;
+   margin-bottom: 1rem;
+}
+.navigation{
+   position: relative;
+
+   bottom: 0;
+   text-align: right;
+   font-family: 'Cormorant Garamond', serif;
+}
+
+a  {
+   text-decoration: none;
+   color: black;
+}
+
+
+/*Main Body*/
+.main-body{
+   position: relative;
+
+   display: flex;
+   margin-top: 12rem;
+   margin-bottom: 5rem;
+   height: 64rem;
+   width: 100%;
+}
+.left-main-body{
+   position: relative;
+
+   min-height: 100%;
+   width: 25%;
+}
+.mid-main-body{
+   position: relative;
+
+   min-height: 100%;
+   width: 50%;
+}
+.right-main-body{
+   position: relative;
+
+   min-height: 100%;
+   width: 25%;
+}
+.gone-fishing{
+
+}
+
+/*Footer*/
+.footer{
+   position: relative;
+   bottom: 0;
+
+   height: 5rem;
+   width: 100%;
+   text-align: center;
+   vertical-align: center;
+}
+ul{
+   padding: 0;
+}
+li{
+   padding: 1rem 1.25rem;
+   display: inline-block;
+}
+.copyright{
+   vertical-align: bottom;
+   text-align: center;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 75%;
+}
